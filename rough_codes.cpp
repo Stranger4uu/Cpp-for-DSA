@@ -1,27 +1,21 @@
-#include <iostream>
+#include<iostream>
+
 using namespace std;
 
-void fizzBuzz(int number) {
-    if (number % 3 == 0 && number % 5 == 0) {
-        cout << "FizzBuzz";
+void print1(int n ){
+    for(int i=0;i<n;i++){
+        for(int j=0;j<=i;j++){
+            cout<<"*";
+        }
+        cout<<endl;
     }
-    else if (number % 3 == 0) {
-        cout << "Fizz";
-    }
-    else if (number % 5 == 0) {
-        cout << "Buzz";
-    }
-    else {
-        cout << number;
-    }
+
 }
 
-int main() {
+int main(){
     int n;
-    cout << "Enter a number: ";
+    cout<<"Enter how many times u need pattern : ";
     cin >> n;
+    print1(n);
+    }
 
-    fizzBuzz(n);   // ✅ function call
-
-    return 0;
-}
