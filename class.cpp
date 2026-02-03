@@ -21,7 +21,7 @@
 // create a class named item , data in public is name(string) and price (int) then create 2 function 
 // 1st function named set to set value of name and price (outside the class)
 // 2nd function named show to show the name and price ( inside the class)
-// objects 3 
+// 3 objects will be used
 
 #include <iostream>
 #include <string>
