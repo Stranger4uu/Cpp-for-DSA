@@ -23,36 +23,64 @@
 // 2nd function named show to show the name and price ( inside the class)
 // 3 objects will be used
 
-#include <iostream>
-#include <string>
+// #include <iostream>
+// #include <string>
+// using namespace std;
+
+
+
+// class item{
+//     public:
+//         string name;
+//         int price;
+//         void show(){
+//             cout<<name;
+//             cout<<endl; 
+//             cout<<price<<"$";
+//             cout<<endl; 
+//         }
+//         void set();
+// };
+
+// void item:: set(){
+//     cout<<"Enter the product name : ";
+//     cin>>name;
+//     cout<<"Enter the product price : ";
+//     cin>>price;
+    
+// }
+
+// int main(){
+//     item obj; 
+//     obj.set();
+//     obj.show(); 
+//     return 0;
+// }
+
+#include<iostream>
 using namespace std;
 
-
-
-class item{
-    public:
-        string name;
-        int price;
-        void show(){
-            cout<<name;
-            cout<<endl; 
-            cout<<price<<"$";
-            cout<<endl; 
+class first{
+    private:
+        int a;
+    private:
+        void get_a(){
+            cout<<"Enter a number : ";
+            cin>>a;
         }
-        void set();
+    public:
+        void show(){
+            get_a();
+            cout<<a;
+        }
 };
 
-void item:: set(){
-    cout<<"Enter the product name : ";
-    cin>>name;
-    cout<<"Enter the product price : ";
-    cin>>price;
-    
+int main(){
+    first f1;
+
+    f1.show();
+
+    return 0;
+
 }
 
-int main(){
-    item obj; 
-    obj.set();
-    obj.show(); 
-    return 0;
-}
