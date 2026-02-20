@@ -1,0 +1,19 @@
+# VS Code settings
+.vscode/
+
+# macOS
+.DS_Store
+
+# C++ build files
+*.o
+*.out
+*.exe
+
+# Log files
+*.log
+
+# Temporary files created by your programs
+pattern_*
+rough
+!pattern_*.cpp
+*.tmp
