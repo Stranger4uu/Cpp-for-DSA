@@ -77,10 +77,12 @@ class first{
 
 int main(){
     first f1;
-
+    
     f1.show();
 
     return 0;
 
 }
+
+// if we want to use any private data or function , we need use public function to access it 
 
